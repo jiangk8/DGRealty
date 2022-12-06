@@ -1,22 +1,20 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 
-import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
-import Portfolio from "./Pages/Portfolio/Portfolio";
-import Family from "./Pages/Family/Family";
-import Couple from "./Pages/Couple/Couple";
-import Portrait from "./Pages/Portrait/Portrait";
+import Home from "./Pages/Home/Home";
+import Listings from "./Pages/Listings/Listings";
+import MeetTheTeam from "./Pages/MeetTheTeam/MeetTheTeam";
+import Taxes from "./Pages/Taxes/Taxes";
 
 const Router = () => {
   return (
     <Routes>
-      <Route path='/' element={<Navigate to='/portfolio' replace />} />
-      <Route path='portfolio' element={<Portfolio />} />
-      <Route path='family' element={<Family />} />
-      <Route path='couple' element={<Couple />} />
-      <Route path='portrait' element={<Portrait />} />
-      <Route path='about' element={<About />} />
+      <Route path='/' element={<Navigate to='/home' replace />} />
       <Route path='contact' element={<Contact />} />
+      <Route path='home' element={<Home />} />
+      <Route path='listings' element={<Listings />} />
+      <Route path='meettheteam' element={<MeetTheTeam />} />
+      <Route path='taxes' element={<Taxes />} />
     </Routes>
   );
 };
