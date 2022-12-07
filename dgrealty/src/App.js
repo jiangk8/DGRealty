@@ -7,7 +7,6 @@ import Footer from "./Footer/Footer";
 function App() {
   return (
     <div style={{ display: "flex" }}>
-      hi
       <Header />
       <Router />
       <Footer />
