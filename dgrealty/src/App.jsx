@@ -1,16 +1,16 @@
 import React from "react";
-import "./App.css";
+import { Container } from "./styled-components.jsx";
 import Router from "./Router";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 
 function App() {
   return (
-    <div style={{ display: "flex" }}>
+    <Container>
       <Header />
       <Router />
       <Footer />
-    </div>
+    </Container>
   );
 }
 

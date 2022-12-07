@@ -5,9 +5,6 @@ export const Container = styled.div`
   border-top: 2px solid gray;
   margin-top: 1rem;
   padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: 15rem;
   box-sizing: border-box;
