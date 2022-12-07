@@ -19,6 +19,7 @@ export const Menu = styled.div`
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 150px;
+  font-family: Verdana, Sans-serif;
 `;
 
 export const MenuItems = styled.div`
