@@ -4,8 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 150px;
-  padding: 50px;
+  height: 90px;
   box-sizing: border-box;
 `;
 
@@ -19,7 +18,9 @@ export const Menu = styled.div`
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 150px;
+  margin-top: 30px;
   font-family: Verdana, Sans-serif;
+  font-size: 13px;
 `;
 
 export const MenuItems = styled.div`
